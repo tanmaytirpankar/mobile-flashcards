@@ -22,6 +22,7 @@ class Quiz extends Component {
 		this.setState((prevState)=>({
 			score: prevState.score+1,
 			questionNumber: prevState.questionNumber+1,
+			showAnswer: false,
 		}))
 
 	}
@@ -29,6 +30,7 @@ class Quiz extends Component {
 	handleIncorrectPress=()=>{
 		this.setState((prevState)=>({
 			questionNumber: prevState.questionNumber+1,
+			showAnswer: false,
 		}))
 	}
 

@@ -1,4 +1,4 @@
-import { RECEIVE_ALL_DECKS, SAVE_DECK, SAVE_CARD, REMOVE_DECK } from '../actions/decks.js'
+import { RECEIVE_ALL_DECKS, SAVE_DECK, SAVE_CARD, REMOVE_DECK } from '../actions/actionTypes.js'
 
 export default function decks (state={}, action) {
 	switch(action.type) {
